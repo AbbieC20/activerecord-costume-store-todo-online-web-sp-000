@@ -1,6 +1,6 @@
 class Costume < ActiveRecord::Base
 
-  def CreateCostumes
+  def change
     create_table :costumes do |c|
       c.string :name
       c.integer :price
