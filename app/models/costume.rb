@@ -9,8 +9,8 @@ class Costume < ActiveRecord::Base
       c.integer :price
       c.string :size
       c.string :image_url
-      datetime :created_at
-      datetime :updated_at
+      c.datetime :created_at
+      c.datetime :updated_at
     end
   end
 
